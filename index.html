@@ -1,0 +1,162 @@
+<!-- perguntar sobre a margem da direita 
+	texto na imagem quando hover-->
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Me contrata</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link href="css/estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+	
+	<nav>
+		<div class="cabecalho">
+			<a href="#">Bio</a>
+			<div class="dropdown">
+				  <button class="dropbtn">Galeria</button>
+				  <div class="dropdown-content">
+					<a href="#artes">Artes Visuais</a>
+					<a href="#ilustras">Ilustrações</a>
+					<a href="#design">Design Gráfico</a>
+				  </div>
+		 	</div>
+			<a href="#contato">Contato</a>
+			</div>
+	</nav>
+	
+	<header>
+		<div class="terminal"></div>
+		<div class="container">
+			<div id="header-info">
+				<h1 id="meuNome">Lai</h1>
+			</div>
+			<script src="js/scriptz.js"></script>
+		</div>
+	</header>
+	
+		<section id="bio">
+			<div class="container">
+				<p>Bacharel em Artes Visuais pelo Centro Universitário Belas Artes de São Paulo. Atualmente é pós-graduanda em Design Gráfico e Digital (Senac) e atua como Arte-Educadora no Museu de Arte Brasileira (MAB) da Fundação Armando Álvares Penteado (FAAP). Tem se dedicado à Arte Educação e ao estudo do Design Gráfico.
+				</p>
+			</div>
+		</section>
+	
+	<section id="galeria">
+		<div class="container">
+			<h2 class="subtit">Galeria</h2>
+		</div>
+			<!-- grid - inicio -->
+		<div>
+	<section id="artes">
+			<h3 class="subsubtit"> Artes Visuais </h3>
+		</div>
+		<div class="grid-galeria">
+			<figure>
+				<a href="imgs_edit/externa1.png"><img src="imgs_edit/externa1.png" alt="Externa #1" width="auto"></a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/externa2.png"><img src="imgs_edit/externa2.png" alt="Externa #2" width="auto"></a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/externa3.png"><img src="imgs_edit/externa3.png" alt="Externa #3" width="auto"></a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/brumas1.png"> <img src="imgs_edit/brumas1.png" alt="Feito em Brumas #1" width="auto"> </a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/brumas2.png"> <img src="imgs_edit/brumas2.png" alt="Feito em Brumas #2" width="auto"> </a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/brumas3.png"> <img src="imgs_edit/brumas3.png" alt="Feito em Brumas #3" width="auto"> </a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/gaijin.png"> <img src="imgs_edit/gaijin.png" alt="gaijin" width="auto"> </a>
+			</figure>
+			<figure>
+				<a href="imgs_edit/bruminhas.png"> <img src="imgs_edit/bruminhas.png" alt="Pequena zine de memórias" width="auto"> </a>
+			</figure>
+			</div>
+	</section>
+	<section id="ilustras">	
+		<div>
+			<h3 class="subsubtit"> Ilustras </h3>
+		</div>
+		<div class="grid-galeria">
+			<figure>
+				<a href="imgs/Demonha.png"> <img src="imgs_edit/demonha.png" alt="Demonha" width="480px" height="auto"> </a>
+			</figure>
+			
+			<figure>
+				 <a href="imgs/Gatinho.jpg"><img src="imgs_edit/gato.png" alt="Gato no mato" width="480px" height="auto"></a>
+			</figure>
+			
+			<figure>
+				 <a href="imgs/.jpg"><img src="imgs_edit/urso.png" alt="Urso trabalhador" width="480px" height="auto"></a>
+			</figure>
+		</div>
+		</section>
+		<section id="design">
+		<div>
+			<h3 class="subsubtit"> Design </h3>
+		</div>
+			<div class="grid-galeria">
+				<figure>
+					<a href="imgs_edit/peste.png"> <img src="imgs_edit/peste.png" alt="A Peste"> </a>
+				</figure>
+				<figure>
+					<a href="imgs_edit/patinhas.png"> <img src="imgs_edit/patinhas.png" alt="Manual de marca - Patinhas Unidas"> </a>
+				</figure>
+		</div>
+		</section>
+	
+		<!-- contato -->
+	<section id="contato">
+			<h2 class="subtit">Contato</h2>
+
+			<form action="#">
+
+				<div class="form-grupo">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome">
+				</div>
+
+				<div class="form-grupo">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="nome@email.com" required>
+				</div>
+
+				<div class="form-grupo">
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" name="mensagem"></textarea>
+				</div>
+
+				<div class="form-grupo">
+					<input class="btn" type="submit" value="Enviar">
+				</div>
+
+			</form>
+	</section>
+	<!-- contato fim -->
+	
+	<!-- rodape -->
+	<footer>
+		<div class="container">
+			<p>&copy; Laís Miho, 2023. <a href="mailto:marina.ficticia@gmail.com">lmnakaharada@gmail.com</a></p>
+		</div>
+	</footer>
+	<!-- rodape fim -->
+	
+</body>
+</html>
